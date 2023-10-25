@@ -10,7 +10,7 @@ const Timer = () => {
     const [minutes, setMinutes] = useState(0);
     const [seconds, setSeconds] = useState(0);
 
-    const deadline = "October, 25, 2023";
+    const deadline = "november, 15, 2023";
 
     const getTimeRemaining = () => {
         const time = Date.parse(deadline)-Date.now();
@@ -30,7 +30,7 @@ const Timer = () => {
     <>
     <div className="timer-wrap">
       <div id="timer" className="timer">{hours}:{minutes}:{seconds}</div>
-      <div>{days}<span> Days</span></div>
+      <div id="day-count">{days}<span> Days</span></div>
       <div id="buttons">
         <button className="start-pause" id="start">Start</button>
         <button className='reset' id='reset'>Reset</button>
