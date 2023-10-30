@@ -1,6 +1,6 @@
 ### Story time: I've always wanted to read but "never found the time to". 
 
-As a recent college graduate on the job search train, this was my chance. I could finally explore all the literature my heart desired without the excuse that "my code could be more streamlined". Yet, I found myself struggling to finish a single book.
+As a recent college graduate on the job search train, I've been blessed with nothing but time on my hands. I could finally explore all the literature my heart desired without the excuse that "my code could be more streamlined". Yet, I found myself struggling to finish a single book.
 
 I was told that with a Computer Science Degree anything is possible. Have a problem? Build an app to fix it. Have a slow process? Find a way to optimize it. My imagination is my workshop and with the POWER OF AI WE CAN TAKE OVER THE WORLD!! Just kidding, grit and google were my solutions. 
 
