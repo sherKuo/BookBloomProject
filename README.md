@@ -1,3 +1,30 @@
+### Story time: I've always wanted to read but "never found the time to". 
+
+As a recent college graduate on the job search train, this was my chance. I could finally explore all the literature my heart desired without the excuse that "my code could be more streamlined". Yet, I found myself struggling to finish a single book.
+
+I was told that with a Computer Science Degree anything is possible. Have a problem? Build an app to fix it. Have a slow process? Find a way to optimize it. My imagination is my workshop and with the POWER OF AI WE CAN TAKE OVER THE WORLD!! Just kidding, grit and google were my solutions. 
+
+Aching to flex my coding muscles, I decided to listen to my professors and build an app. So I now present to you...
+
+# THE BOOKBLOOM Project
+
+
+MVP features:
+- Working pomodoro reading timer  
+- Editable session logger for one book
+- Working Book List 
+- All data Locally stored for now
+
+Reach features:
+- User login and Data hosted online
+- Reading Data Analytics
+- Multiple book logger page with data synching 
+
+Dream:
+- Deploying for public use! 
+- Reaching out to local library systems and schools
+
+*********************************************************************************
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
