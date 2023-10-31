@@ -3,12 +3,15 @@ import './App.css';
 import Timer from './components/Timer';
 import PomTimer from './components/PomTimer.js';
 import Settings from './components/Settings.js';
+import SettingsContext from './components/SettingsContext';
 import { useState } from 'react';
 
 // const [title, setTitle] = useState( {bookTitle: ""})
 
 function App() {
-  const [showSettings, setShowSettings] = useState(true);
+  const [showSettings, setShowSettings] = useState(false);
+  const [workMinutes, setWorkMinutes] = useState(45);
+  const [breakMinutes, setBreakMinutes] = useState(15);
 
   return (
     // <div className="App">
@@ -18,7 +21,20 @@ function App() {
 
     // </div>
 
-    <main>{showSettings ? <Settings /> : <PomTimer />}</main>
+    <main>
+      <SettingsContext.Provider
+        value={{
+          showSettings,
+          setShowSettings,
+          workMinutes,
+          breakMinutes,
+          setWorkMinutes,
+          setBreakMinutes,
+        }}
+      >
+        {showSettings ? <Settings /> : <PomTimer />}
+      </SettingsContext.Provider>
+    </main>
   );
 }
 
